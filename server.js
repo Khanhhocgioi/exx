@@ -8,7 +8,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
 app.get("/",(req,res)=>{
-    res.render('view');
+    res.render('index');
 })
 
 var server=app.listen(port,function() {});
